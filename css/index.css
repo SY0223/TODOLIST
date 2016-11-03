@@ -1,0 +1,124 @@
+body{
+	font-family: 微软雅黑;
+}
+nav{
+	height: 60px;
+	background-color: #333;
+}
+.nav-list{
+/*	width: 1000px;*/
+	height: 100%;
+	text-align: center;
+}
+.nav-list input[type=text]{
+	width:400px;
+	height: 36px;
+	margin-top:12px;
+	border:0;
+	box-sizing: border-box;
+	padding:0 10px;
+}
+.nav-list input[type=button]{
+	width: 120px;
+	height: 36px;
+	margin-top:12px;
+	background-color: #34DC7E;
+	box-sizing: border-box;
+	font-size: 16px;
+	color:#fff;
+	border:0;
+	padding:0;
+	border-radius: 3px;
+}
+.nav-list input[type=button]:active{
+	opacity: .8;
+}
+section{
+	box-sizing: border-box;
+	width:700px;
+	height:auto;
+	overflow: hidden;
+	/*border:1px solid #ccc;*/
+	margin:20px auto;
+}
+header{
+	padding:10px 0 5px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #eee;
+}
+header h3{
+	float: left;
+	height: 100%;
+}
+header .num{
+	width: 20px;
+	height: 20px;
+	margin:10px 0;
+	line-height: 20px;
+	text-align: center;
+	float: right;
+	color:#fff;
+	border-radius: 3px;
+	background-color: #34DC7E;
+}
+.list{
+	width: 100%;
+}
+.list li{
+	margin:10px 0;
+	padding:5px 10px;
+	height: 30px;
+	text-align: left;
+	background-color: #f1f1f1;
+	border-left:4px solid #34DC7E;
+	border-radius: 3px 0 0 3px;
+}
+.list li:last-of-type{
+	border-bottom:0;
+}
+.list input[type=checkbox]{
+	vertical-align: middle;	
+	width:20px;
+	height: 20px;
+}
+.com li div{
+	text-decoration: line-through ;
+	color:#888;
+}
+.list div{
+	display: inline-block;
+	vertical-align: middle;
+	width: 580px;
+	height: 30px;
+	color:#555;
+	padding:0 10px;
+	line-height: 30px;	
+}
+.list input[type=button]{
+	width: 26px;
+	height: 26px;
+	font-size: 18px;
+	vertical-align: middle;
+	float: right;
+	border-radius: 50%;
+
+	background-color: #34DC7E;
+	border:2px solid #fff;
+	color:#fff;
+}
+body{
+	text-align: center;
+}
+.delll{
+	width: 120px;
+	height: 36px;
+	margin-top:12px;
+	margin-left: 60px;
+	background-color: #DE5145;
+	color: #fff;
+	text-align: center;
+	border:0;
+	font-size: 16px;
+	border-radius: 3px;
+}
